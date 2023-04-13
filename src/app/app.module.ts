@@ -8,6 +8,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { ButtonListenerComponent } from './button-listener/button-listener.component';
 import { EditableTextComponent } from './editable-text/editable-text.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
     ButtonListenerComponent,
     EditableTextComponent,
     LifecycleComponent,
+    ChildComponent,
+    ParentComponent,
   ],
   imports: [
     BrowserModule
