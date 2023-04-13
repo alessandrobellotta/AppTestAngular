@@ -6,6 +6,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { SecondComponent } from './second/second.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { ButtonListenerComponent } from './button-listener/button-listener.component';
+import { EditableTextComponent } from './editable-text/editable-text.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ButtonListenerComponent } from './button-listener/button-listener.compo
     SecondComponent,
     PropertyBindingComponent,
     ButtonListenerComponent,
+    EditableTextComponent,
   ],
   imports: [
     BrowserModule
