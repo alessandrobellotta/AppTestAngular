@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ParentComponent {
   parentName = 'Mike Maignan';
-  myName = '';
+  names = ['Alex', 'Lucia', 'Francesca'];
 }

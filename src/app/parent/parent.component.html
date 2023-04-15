@@ -1,1 +1,4 @@
-<app-child [myName]="myName" [parent]="parentName"></app-child>
+<div id="parent">
+  <h3>I am a parent component.</h3>
+  <app-child *ngFor="let name of names" [myName]="name" [parent]="parentName"></app-child>
+</div>
