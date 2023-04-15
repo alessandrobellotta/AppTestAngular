@@ -10,6 +10,7 @@ import { EditableTextComponent } from './editable-text/editable-text.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
+import { SecondChildComponent } from './second-child/second-child.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ParentComponent } from './parent/parent.component';
     LifecycleComponent,
     ChildComponent,
     ParentComponent,
+    SecondChildComponent,
   ],
   imports: [
     BrowserModule
