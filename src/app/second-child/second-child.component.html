@@ -1,0 +1,6 @@
+<div id="secondChild">
+  <h3>I'm another child.</h3>
+  <label for="name-input">Add new name:</label>
+  <input type="text" id="name-input" #newName>
+  <button type="button" (click)="addNewName(newName.value)">Add to parent's names list.</button>
+</div>

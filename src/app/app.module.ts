@@ -11,6 +11,7 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { SecondChildComponent } from './second-child/second-child.component';
+import { SecondParentComponent } from './second-parent/second-parent.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SecondChildComponent } from './second-child/second-child.component';
     ChildComponent,
     ParentComponent,
     SecondChildComponent,
+    SecondParentComponent,
   ],
   imports: [
     BrowserModule

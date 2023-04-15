@@ -1,0 +1,9 @@
+<div id="secondParent">
+  <h3>I'm another parent.</h3>
+  <app-second-child (newName)="addName($event)">
+  </app-second-child>
+  <ul>
+    <li *ngFor="let name of names">{{name}}</li>
+  </ul>
+</div>
+
