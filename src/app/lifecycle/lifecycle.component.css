@@ -1,0 +1,9 @@
+#lifecycleComponent{
+  border: 5px solid black;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+}

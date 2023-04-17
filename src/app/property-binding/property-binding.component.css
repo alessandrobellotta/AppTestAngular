@@ -1,0 +1,9 @@
+#propertyBinding{
+  border: 5px solid black;
+  color: white;
+  background-color: red;
+  width: 200px;
+  height: fit-content;
+  margin: auto;
+  padding: 10px;
+}
